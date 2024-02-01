@@ -24,8 +24,8 @@ function invInfo() {
 
 function basketInfo() {
     document.getElementById('appRight').innerHTML=/*HTML*/`
-        <div class="basket" id="basketInv" draggable="true" onclick="basketInfo()">kurv</div>
-        <div class="basOut" id ="basketInvOut" draggable="true"> Ut hent boks
+        <div class="basket" id="basketInv" draggable="true" onclick="basketInfo()">Basket</div>
+        <div class="basOut" id="basketInvOut" draggable="true"> Ut hent boks
             <button class="addBasketItem btn" onclick = "addBasketItem()" >
                 Add item
             </button>
